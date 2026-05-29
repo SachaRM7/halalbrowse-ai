@@ -1,0 +1,16 @@
+listen_addr: 127.0.0.1:8080
+metrics_addr: 127.0.0.1:9090
+threshold: 0.70
+upstream_proxy: ""
+prayer_city: Toulouse
+prayer_country: France
+prayer_timezone: UTC
+strict_mode: true
+strict_delta: 0.15
+pre_window_minutes: 15
+post_window_minutes: 10
+blocklist:
+  source_url: https://example.com/halalbrowse/blocklist.json
+  signing_key: change-me
+  cache_path: /tmp/halalbrowse-blocklist.json
+  metadata_path: /tmp/halalbrowse-blocklist.meta.json
